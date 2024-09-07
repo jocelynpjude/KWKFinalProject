@@ -1,0 +1,188 @@
+/*STYLE SECTIONING */
+body {
+  background-color: #edeae4;
+}
+
+
+/* STYLE DROPDOWN */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-links {
+  float: right;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}  
+
+.dropbtn {
+  /* background-color: ; */
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}  
+
+.dropdown-content {
+  position: absolute;
+  min-width: 100px;
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  z-index: 1;
+  display: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* STYLE TEXT*/
+
+#titleText {
+  background-color: #405954;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+h1 {
+  color:  #f2ede3;
+  font-size: 70px;
+  text-align: center;
+  background-color:  #405954;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hometext {
+  flex: 1;
+  padding: 8px 0; 
+}
+
+.image {
+  flex: 1;
+  padding: 8px; 
+  max-width: 900px;
+}
+.image2 {
+  flex: 0.5;
+  padding: 8px; 
+  max-width: 900px;
+}
+
+/* STYLE NAV BAR */ 
+nav {
+  text-align: center;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  background-color: #003004;
+  /*overflow: hidden;*/
+  padding: .5em;
+}
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+.dropdown-content {
+  display: none
+}
+
+dropdown-content a {
+  color: black; /* Set the text color for dropdown items */
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li.dropdown:hover .dropbtn {
+  background-color: #349d88;
+}
+
+li a:hover {
+  background-color: #349d88;
+}
+
